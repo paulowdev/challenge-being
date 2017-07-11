@@ -1,0 +1,9 @@
+# User-specific stuff:
+.idea/
+.gitignore
+
+frontend-dev/bower_components
+frontend-dev/node_modules
+
+web-app/vendor/
+web-app/public/uploads/excel-files/*

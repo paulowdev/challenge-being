@@ -1,0 +1,41 @@
+@import 'colors';
+@import 'fonts';
+@import 'header';
+@import 'home';
+@import 'footer';
+
+/* Custom CSS
+-------------------------------------------------- */
+
+body > .container {
+  padding: 10px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.text-muted {
+  color: $white !important;
+}
+
+.converter-form .error {
+  color: $errorMsgColor;
+}
+
+.converter-form .alert {
+  display: none;
+}
+
+code {
+  font-size: 80%;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+  }
+}
